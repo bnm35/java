@@ -1,11 +1,8 @@
-import java.util.Scanner;
-
 public class Switch_case {
     public static void main(String[] args) {
         boolean answer = true;
         Scanner scanner = new Scanner(System.in);
-
-        while (answer) {
+            while (answer) {
             System.out.println("1. Check if a number is positive or negative");
             System.out.println("2. Check if a number is even or odd");
             System.out.println("3. Display numbers from 1 to the given number");
